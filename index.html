@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登入注册</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<style>
+
+* {
+  margin: 0;
+  padding: 0;
+}
+ 
+.login {
+  width: 100%;
+  height: 900px;
+  background: url(../img/1.jpg) no-repeat 0px 0px;
+}
+ 
+.login div {
+  color: red;
+  padding-top: 163px;
+  padding-left: 630px;
+}
+ 
+button {
+  margin-left: 109px;
+}
+
+</style>
+<body>
+    <div class="login">
+        <div>
+           账号:
+           <input type="text" id="username">
+           <br>
+           密码:
+           <input type="password" id="password">
+           <span id="message">(请输入6~16位密码)</span>
+           <br>
+           <button>登入</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="login.js"></script>
+</body>
